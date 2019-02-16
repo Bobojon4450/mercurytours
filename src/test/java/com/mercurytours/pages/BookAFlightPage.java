@@ -4,7 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import com.mercurytours.utilities.Driver;
 
 public class BookAFlightPage {
@@ -12,7 +11,6 @@ public class BookAFlightPage {
 	WebDriver driver;
 
 	public BookAFlightPage() {
-		
 		driver = Driver.getInstance();
 		PageFactory.initElements(Driver.getInstance(), this);
 	}
@@ -69,10 +67,7 @@ public class BookAFlightPage {
 	
 	
 	
-	
-	
-	
-	
+	//Ready templates.
 	@FindBy(xpath = "")
 	public WebElement s;
 	
