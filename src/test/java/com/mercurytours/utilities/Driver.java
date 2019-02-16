@@ -12,8 +12,7 @@ public class Driver {
 
 	private static WebDriver driver;
 
-	private Driver() {
-	};
+	private Driver() {}
 	// this is actually singleton class
 	// if we cannot create an instance of this class
 	// then methods in this class should be static methods.
