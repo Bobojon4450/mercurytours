@@ -26,10 +26,3 @@ public class HomePage {
 	public WebElement signInButton;
 
 }
-
-
-
-//public static void main(String[] args) {
-//Properties config = new Properties();
-//config.load(inStream);
-//}
